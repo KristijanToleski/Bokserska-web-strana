@@ -1,0 +1,230 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Боксерска продавница</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Барај..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Жешки понуди!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Нараквици</h3>
+            <h3 class="menuItem">Бандажери</h3>
+            <h3 class="menuItem">Фокусери</h3>
+            <h3 class="menuItem">Обувки</h3>
+            <h3 class="menuItem">Вреќа</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/tnprolineNarakvici.png" alt="" class="sliderImg" width="30%" style="margin-top: 5vw; margin-bottom: 5vw;">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">TN</br> 10oz</br> PROLINE</h1>
+                <h2 class="sliderPrice">2790 ден</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИ СЕГА!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/bandazeri.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ENERGETICS</br> WHITE</br> 2.5m</h1>
+                <h2 class="sliderPrice">590 ден</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИ СЕГА!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/fokuseri.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ENERGETICS</br> MITTS</br> TN</h1>
+                <h2 class="sliderPrice">2490 ден</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИ СЕГА!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/obuvki.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ADIDAS BOX</br> HOG</br> 4</h1>
+                <h2 class="sliderPrice">4790 ден</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИ СЕГА!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/vreka.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ENERGETICS</br> PUNCHING</br> BAG</h1>
+                <h2 class="sliderPrice">9890 ден</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИ СЕГА!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">БЕСПЛАТНА ДОСТАВА</span>
+            <span class="featureDesc">Окулу македонија</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 ДЕНА ТЕСТ ПЕРИОД</span>
+            <span class="featureDesc">Или враќање на производот до 14 дена.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">ПОДАРОК КАРТИЧКИ</span>
+            <span class="featureDesc">Купете подарок картички и делете на најблиските.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">КОНТАКТИРАЈТЕ НЕ!</span>
+            <span class="featureDesc">Преку нашиот систем и е-пошта.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/bandazeri.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">ENERGETICS WHITE 2.5m</h1>
+            <h2 class="productPrice">590 ден</h2>
+            <p class="productDesc">Убави меки бандажери.</p>
+            <button class="productButton">КУПИ СЕГА!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Лични податоци</h1>
+            <label>Име и презиме</label>
+            <input type="text" placeholder="Име и презиме" class="payInput">
+            <label>Телефонски број</label>
+            <input type="text" placeholder="+389" class="payInput">
+            <label>Адреса</label>
+            <input type="text" placeholder="Охрид Оровник 15" class="payInput">
+            <h1 class="payTitle">Информации за картичка</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Број на картичка">
+            <div class="cardInfo">
+                <input type="text" placeholder="месец" class="payInput sm">
+                <input type="text" placeholder="година" class="payInput sm">
+                <input type="text" placeholder="цвв" class="payInput sm">
+            </div>
+            <button class="payButton">Плати!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">БИДИ СВОЈ!</h1>
+            <img src="./img/box1.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/box2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">ВЕРУВАЈ ВО СЕБЕ</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">ТИ ГО МОЖЕШ ТОА!</h1>
+            <img src="./img/box3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="./img/box4.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">НОВИ ИЗДАНИЈА</h3>
+            <h1 class="nsTitle">НОВА СЕЗОНА</h1>
+            <h1 class="nsTitle">НОВА КОЛЕКЦИЈА</h1>
+            <a href="#nav">
+                <button class="nsButton">ОДБЕРИГО ТВОЈОТ СТИЛ</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="./img/box5.jpeg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">За нас</h1>
+                <ul class="fList">
+                    <li class="fListItem">Компанија</li>
+                    <li class="fListItem">Контакт</li>
+                    <li class="fListItem">Кариера</li>
+                    <li class="fListItem">Продавници</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Корисни линкови</h1>
+                <ul class="fList">
+                    <li class="fListItem">Помош</li>
+                    <li class="fListItem">Враќање</li>
+                    <li class="fListItem">Прашање</li>
+                    <li class="fListItem">Пофалби</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Производи</h1>
+                <ul class="fList">
+                    <li class="fListItem">TN 10oz PROLINE</li>
+                    <li class="fListItem">ENERGETICS WHITE 2.5m</li>
+                    <li class="fListItem">ENERGETICS MITTS TN</li>
+                    <li class="fListItem">ADIDAS BOX HOG 4</li>
+                    <li class="fListItem">ENERGETICS PUNCHING BAG</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Подржетене на социјалните мрежи</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="box@email.com" class="fInput">
+                    <button class="fButton">Придружи се!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Следете не</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">Кристијан Толески, Даниел Симјаноски III-4 07.03.2024</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
